@@ -15,12 +15,15 @@ public class No14 {
      * */
     public static boolean no14(int[] nums) {
         boolean two = false,four = false;
+        // Checking arrays with 1 element
         for(int count = 0;count <nums.length; count++) {
             if (nums[count] == 1)
                 two = true;
             if(nums[count] == 4)
                 four = true;
         }
+
+
         if(nums.length == 0 || nums.length == 1)
             return true;
         else if (two ==true && four ==true)
