@@ -19,6 +19,19 @@ public class Has12 {
       }
     }
     return false;
+
+//   ** BEHOLD THEE THE MOST SUFFICIENT ALGORITHM: **
+//
+//    boolean hasOne = false;
+//    for (int i = 0; i < nums.length; i++) {
+//      if (nums[i] == 1) {
+//        hasOne = true;
+//      }
+//      if (nums[i] == 2 && hasOne == true) {
+//        return true;
+//      }
+//    }
+//    return false;
   }
 
 }
