@@ -9,7 +9,7 @@ See the table below to track the progress:
 |04   |  [String - 2](src/main/java/Warmup02)           |                                     |
 |05   |  [String - 3](src/main/java/Warmup03)           |                                     |
 |06   |  [Array - 1](src/main/java/Array01)             |  Done  :white_check_mark:           |
-|07   |  [Array - 2](src/main/java/Array02)             |  In progress    :construction:      |
+|07   |  [Array - 2](src/main/java/Array02)             |  Done  :white_check_mark:           |
 |08   |  [Array - 3](src/main/java/Array03)             |                                     |
 |09   |  [Map - 1](src/main/java/Map01)                 |                                     |
 |10   |  [Map - 2](src/main/java/Map02)                 |                                     |
