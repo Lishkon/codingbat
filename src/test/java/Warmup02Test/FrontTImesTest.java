@@ -28,4 +28,23 @@ public class FrontTImesTest {
         FrontTimes ft = new FrontTimes();
         Assert.assertEquals("AbcAbcAbc", ft.frontTimes("Abc", 3));
     }
+
+    @Test
+    public void ababababTest() {
+        FrontTimes ft = new FrontTimes();
+        Assert.assertEquals("AbAbAbAb", ft.frontTimes("Ab", 4));
+    }
+
+    @Test
+    public void emptyStringTest() {
+        FrontTimes ft = new FrontTimes();
+        Assert.assertEquals("", ft.frontTimes("",4));
+    }
+
+    @Test
+    public void aaaaTest() {
+        FrontTimes ft = new FrontTimes();
+        Assert.assertEquals("AAAA", ft.frontTimes("A",4));
+    }
+
 }
